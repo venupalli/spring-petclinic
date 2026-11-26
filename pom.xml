@@ -231,6 +231,12 @@
             <version>${nohttp-checkstyle.version}</version>
           </dependency>
         </dependencies>
+        <distributionManagement>
+    <repository>
+        <id>nexus-releases</id>
+        <url>http://13.127.228.19:32769/repository/maven-releases/</url>
+    </repository>
+</distributionManagement>
         <executions>
           <execution>
             <id>nohttp-checkstyle-validation</id>
